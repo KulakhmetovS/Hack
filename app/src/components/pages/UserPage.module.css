@@ -1,3 +1,7 @@
+html {
+  background: #15232A;
+}
+
 .page {
   display: flex;
   flex-wrap: nowrap;
@@ -147,14 +151,19 @@
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .small_image {
   height: 260px;
   width: 260px;
+  margin-left: 60px;
+  margin-right: 60px;
+  border-radius: 18px;
 }
 
 .big_image {
   height: 374;
   width: 374px;
+  border-radius: 24px;
 }
