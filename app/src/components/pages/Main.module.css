@@ -1,0 +1,14 @@
+.content {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 1500px;
+}
+
+.left_panel {
+  position: relative;
+}
+
+.right_panel {
+  position: relative;
+  width: 100%;
+}

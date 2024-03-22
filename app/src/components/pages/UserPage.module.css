@@ -1,0 +1,50 @@
+.page {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 1500px;
+}
+
+.left_panel {
+  position: relative;
+}
+
+.right_panel {
+  position: relative;
+  width: 100%;
+}
+
+.content {
+  position: relative;
+  margin: 36px auto;
+  height: 1237px;
+  width: 1206px;
+  left: 153px;
+}
+
+.profile_container {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.profile {
+  height: 600px;
+  width: 386px;
+  background: #D7D9D8;
+  border-radius: 18px;
+}
+
+.description {
+  height: 600px;
+  width: 796px;
+  background: #8D9CA6;
+  border-radius: 20px;
+}
+
+.awards {
+  height: 614px;
+  width: 100%;
+  background: #4E5C65;
+  border-radius: 24px;
+}

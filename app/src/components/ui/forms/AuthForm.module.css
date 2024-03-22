@@ -1,0 +1,84 @@
+@media (max-width: 1305px) {
+    .AuthForm {
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        position: absolute;
+        margin: auto;
+        background: #626262aa !important;
+    }
+}
+.AuthForm {
+    width: 400px;
+    height: 600px;
+    background: #62626266;
+    border-radius: 24px;
+    padding: 70px 17px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.AuthFormInput::placeholder {
+    color: #828282;
+    font-size: 20px
+}
+
+.AuthFormInput {
+    padding: 22px;
+    background-color: #00000040;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 20px
+}
+
+.AuthForm__inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 164px;
+    width: 340px;
+}
+
+.AuthForm__header {
+    font-size: 24px;
+    color: #ADB5FF;
+    text-align: center;
+    text-shadow: #ADB5FF 0 0 14px;
+}
+
+.AuthForm__buttons {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 178px;
+    justify-content: space-between;
+}
+
+.urlButton {
+    outline: none;
+    text-decoration: none;
+    color: #BDBBFE;
+    border-radius: 12px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px
+}
+
+.button_submit {
+    background: #8684FF;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
